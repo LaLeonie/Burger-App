@@ -1,0 +1,50 @@
+.Burger {
+  width: 100%;
+  background-color: white;
+  overflow: scroll;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.BurgerDisplay {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+}
+
+.TextFiller {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+  .Burger {
+    width: 100%;
+  }
+
+  .BurgerDisplay {
+    width: 350px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+  .Burger {
+    width: 100%;
+  }
+  .BurgerDisplay {
+    width: 450px;
+    height: 40vh;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+  .Burger {
+    width: 100%;
+  }
+  .BurgerDisplay {
+    width: 700px;
+    height: 40vh;
+  }
+}
