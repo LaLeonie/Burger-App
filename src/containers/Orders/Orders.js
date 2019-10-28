@@ -28,7 +28,6 @@ class Orders extends Component {
   }
 
   render() {
-    console.log(this.state.orders);
     return (
       <div style={{ backgroundColor: "white", paddingBottom: "2%" }}>
         {this.state.orders.map(order => (
