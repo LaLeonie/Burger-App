@@ -12,7 +12,6 @@ const order = props => {
   }
 
   const ingredientOutput = ingredients.map(ig => {
-    console.log(ingredients);
     return (
       <span
         key={ig.name}
