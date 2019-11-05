@@ -103,10 +103,11 @@ class ContactData extends Component {
       ].value;
     }
     const order = {
-      ingredients: this.props.ings,
+      ingredients: this.props.ingr,
       price: this.props.price,
       orderData: formData
     };
+    console.log(order);
     this.props.onOrderBurger(order);
   };
 
