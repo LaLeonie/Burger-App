@@ -118,14 +118,7 @@ class Auth extends Component {
 
     let errorMessage = null;
     if (this.props.error) {
-      console.log(this.props.error);
-      switch (this.props.error.message) {
-        case "EMAIL_EXISTS":
-          errorMessage = <p>Unfortunately, this email already exists</p>;
-          return;
-        default:
-          errorMessage = <p>{this.props.error.message}</p>;
-      }
+      errorMessage = <p>{this.props.error.message}</p>;
     }
 
     return (
