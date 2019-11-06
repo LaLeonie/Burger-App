@@ -23,9 +23,7 @@ class Orders extends Component {
       ));
     }
     return (
-      <div style={{ backgroundColor: "white", paddingBottom: "2%" }}>
-        {orders}
-      </div>
+      <div style={{ backgroundColor: "white", padding: "2% 0" }}>{orders}</div>
     );
   }
 }
