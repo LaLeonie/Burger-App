@@ -1,12 +1,6 @@
 .CheckoutSummary {
   background-color: white;
   text-align: center;
-  width: 100%;
+  width: 80%;
   margin: auto;
-}
-
-@media (min-width: 600px) {
-  .CheckoutSummary {
-    width: 100%;
-  }
 }
